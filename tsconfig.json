@@ -1,5 +1,12 @@
 {
     "compilerOptions": {
-      "types": ["bun-types"]
+        "target": "es2022",
+        "baseUrl": "src",
+        "types": ["bun-types"],
+        "module": "ESNext",
+        "allowJs": true,
+        "moduleResolution": "Node",
+        "lib":["dom","es6","es2022"]
+        
     }
 }
